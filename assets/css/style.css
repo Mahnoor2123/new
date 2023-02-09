@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Courgette&family=Fascinate&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* LOGIN */
+
+.login{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #56CCF2, #2F80ED);
+
+    overflow-x: hidden;
+}
+
+
+.login .row{
+    display: flex;
+    align-items: center !important;
+    justify-content: center!important;
+    position: relative;
+}
+
+.login .loginForm{
+    background-color: #ffff;
+    height: 100vh;
+    position: relative;
+}
+
+.login .login-inputs{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login .login-inputs input{
+    padding: 20px 250px 20px 20px;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+    border-radius: 30px;
+    border: 1px solid #c8c8c8;
+    background-color: #2f81ed3e;
+    
+
+}
+
+.login .login-inputs input:focus{
+    outline: none;
+
+}
+
+.login .login-inputs h1{
+    font-size: 65px;
+    font-weight: 600;
+    color: #2F80ED;
+}
+
+
+.login .login-inputs button{
+    padding: 10px 60px;
+    background-image: linear-gradient(to right, #56CCF2, #2F80ED);
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.login .loginSideContent{
+    text-align: center;
+    color: #ffff;
+
+}
+
+.login .loginSideContent h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.login .loginSideContent h5{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.login .loginSideContent button{
+    padding: 10px 60px;
+    background-image: #fafafa;
+    border-radius: 50px;
+    margin-block: 2rem;
+}
+ .add{
+    border: none;
+    border-radius: 16px;
+    background-color: #2F80ED;
+    color: #fff;
+    padding: 5px 10px;
+   
+}
+/* addblog page */
+.addBlogs {
+    background-image: linear-gradient(to right, #56CCF2, #2F80ED);
+    height: 100%;
+    margin-bottom: 100px;
+    padding-bottom: 180px;
+
+}
+.addBlogs .container{
+   background-color: #FFF;
+   text-align: center;
+   border-radius: 16px;
+  transform: translateY(100px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  
+
+}
+.addBlogs .container .submit{
+    border: none;
+    border-radius: 16px;
+    background-color: #2F80ED;
+    color: #fff;
+    padding: 15px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.addBlogs .container h5{
+    text-transform: uppercase;
+    color: #2F80ED;
+    font-weight: 600;
+    
+  
+}
+.addBlogs .container h3{
+    text-transform: uppercase;
+    color: #2F80ED;
+    font-weight: 600;
+    padding-top: 30px;
+}
+@media screen and (max-width: 390px){
+    .container {
+        width: 94%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 100px;
+    }
+}
